@@ -80,9 +80,13 @@ header{
 .contact .item + .item {
   margin-left: 30px;
 }
-.contact{
+.contact {
   display: flex;
   margin-left: auto;
+
+}
+.contact .link{
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -191,12 +195,13 @@ header{
   align-items: center;
   text-align: center;
   padding-top: 200px;
+  height: 600px;
   background-color: rgba(47, 48, 58, 0.8);
   /* background-image: url(../images/fon.jpg); */
 }
 .syllable{
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 32px;
 
   font-weight: 900;
   font-size: 44px;
@@ -210,7 +215,7 @@ header{
 .button-service{
   display: inline-block;
   min-width: 136px;
-  padding: 10px 32px;
+  padding: 10px;
 
   font-weight: 700;
   font-size: 16px;
@@ -231,11 +236,13 @@ header{
 .skills-main{
   padding-top: 94px; 
 }
+.skills-main .container{
+  padding-bottom: 94px;
+}
 .skills{
   display: flex;
   align-items: center;
 
-  padding-bottom: 94px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -285,10 +292,10 @@ header{
   padding-top: 94px;
 }
 
-.service image{
+.image{
   display: block;
   margin: 0px;
-  padding: 27px;  
+  padding: auto;  
 }
 
 .name {
@@ -308,11 +315,12 @@ header{
 /* team */ 
 .taem-main{
   padding-top: 94px;
+  padding-bottom: 94px;
   background: #F5F4FA;
 }
 .team {
   display: flex;
-  padding-bottom: 94px;
+
 }
 .team .item + .item {
   margin-left: 30px;
@@ -332,8 +340,8 @@ header{
 }
 .person{
   margin: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -342,7 +350,7 @@ header{
 }
 .job{
   margin: 0;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -370,7 +378,7 @@ header{
 .client {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
+ 
 }
 .client img{
   width: 170px;
@@ -387,6 +395,7 @@ header{
 }
 .client-main{
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 
