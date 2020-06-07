@@ -201,7 +201,7 @@ header{
 }
 .syllable{
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 0;
 
   font-weight: 900;
   font-size: 44px;
@@ -216,6 +216,7 @@ header{
   display: inline-block;
   min-width: 136px;
   padding: 10px;
+  margin-top: 30px;
 
   font-weight: 700;
   font-size: 16px;
@@ -227,23 +228,20 @@ header{
   border-radius: 4px;
 }
 .hero .around-button-service {
-  padding-top: 46px;
-  padding-bottom: 210px;
+  padding-top: 40px;
 }
 
 /* skills */
 
 .skills-main{
   padding-top: 94px; 
-}
-.skills-main .container{
   padding-bottom: 94px;
 }
+
 .skills{
   display: flex;
   align-items: center;
 
-  border-bottom: 1px solid #ececec;
 }
 
 .skills .item + .item {
@@ -403,6 +401,10 @@ header{
 
 /* portfolio */ 
 
+section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .menu {
   justify-content: center;
   display: flex;
@@ -410,7 +412,6 @@ header{
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  padding-top: 94px;
   margin-bottom: 50px;
   list-style: none;
 }
@@ -435,7 +436,6 @@ header{
     display: flex;
     padding-left: 0;
     flex-wrap: wrap;
-    padding-bottom: 94px;
     margin-bottom: 0;
     margin-top: 0;
     margin-left: -15px;
