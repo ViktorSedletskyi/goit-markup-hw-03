@@ -202,7 +202,6 @@ header{
 .syllable{
   margin-top: 0;
   margin-bottom: 0;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -241,7 +240,6 @@ header{
 .skills{
   display: flex;
   align-items: center;
-
 }
 
 .skills .item + .item {
